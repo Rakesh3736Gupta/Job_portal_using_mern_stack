@@ -22,7 +22,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://job-portal-using-mern-stack-4xyv.onrender.com',
+    origin:'http://localhost:8000',
     credentials:true
 }
 
